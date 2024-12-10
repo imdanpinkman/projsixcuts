@@ -7,7 +7,7 @@ void main() {
   runApp(
     MaterialApp(
       theme: ThemeData(scaffoldBackgroundColor: Color(0xff232323)),
-      home: SplashScreen()
+      home: HomeScreen(),
     ),
   );
 }
