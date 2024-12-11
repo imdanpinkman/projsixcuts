@@ -455,6 +455,13 @@ class _HomeScreenState extends State<HomeScreen> {
         ),
       ),
 
+      floatingActionButton: FloatingActionButton(
+          onPressed: () {
+            Navigator.of(context).pushNamed('/addRoutine');
+          },
+          child: Icon(Icons.add)
+      ),
+
       bottomNavigationBar: BottomNavigationBar(
         items: [
           BottomNavigationBarItem(icon: Icon(Icons.home), label: 'home'),

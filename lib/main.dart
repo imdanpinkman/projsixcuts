@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 
+import 'screen/add_routine/add_routine_screen.dart';
 import 'splash_screen.dart';
 import 'home_screen.dart';
 
@@ -20,6 +21,7 @@ void main() {
       routes: {
         '/splashScreen': (context) => SplashScreen(),
         '/homeScreen': (context) => HomeScreen(),
+        '/addRoutine': (context) => AddRoutineScreen(),
       },
     ),
   );
