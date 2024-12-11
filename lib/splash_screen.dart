@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'dart:async';
 
+import 'home_screen.dart';
+
 class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
 
@@ -15,9 +17,18 @@ class _SplashScreenState extends State<SplashScreen> {
   void initState() {
     super.initState();
     Timer(Duration(seconds: 2), () {
-      Navigator.pushNamed(context, '/homeScreen');
+      // Material Page Route를 사용하여 홈 화면으로 이동
+      // pushReplacement는 이전 화면을 스택에서 제거
+      // 이 둘의 차이 -> 파라미터 기입 가능
+      Navigator.of(context).pushReplacement(MaterialPageRoute(
+        builder: (context) => HomeScreen(),
+      ));
+      // Navigator.pushReplacementNamed(context, '/homeScreen');
     });
+
   }
+
+
 
   //  빌드함수에 대해 질문
 
@@ -76,6 +87,7 @@ class _SplashScreenState extends State<SplashScreen> {
               width: 10,
               height: 150,
             ),
+            // 상태에 따라서 나올수도 안나올수도
             CircularProgressIndicator(
               valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF004ED4)),
             ),
