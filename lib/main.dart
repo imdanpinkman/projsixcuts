@@ -7,7 +7,11 @@ void main() {
   runApp(
     MaterialApp(
       theme: ThemeData(scaffoldBackgroundColor: Color(0xff232323)),
-      home: HomeScreen(),
+      home: SplashScreen(),
+      routes: {
+        '/splashScreen': (context) => SplashScreen(),
+        '/homeScreen': (context) => HomeScreen(),
+      },
     ),
   );
 }

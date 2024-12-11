@@ -14,7 +14,7 @@ class _HomeScreenState extends State<HomeScreen> {
       appBar: AppBar(
         backgroundColor: Color(0xff232323),
         title: Text(
-            'homeScreen화면',
+            'homeScreen화면입니다.',
               style: TextStyle(
                 color: Colors.blueAccent,
                 fontSize: 20,
@@ -31,7 +31,7 @@ class _HomeScreenState extends State<HomeScreen> {
               width: double.infinity,
               height: 300,
 
-              color: Colors.red,
+
 
             //   상단 콘테이너는 또 row 2가지로 나뉜다.
             //   달력과 캐릭터
@@ -45,14 +45,24 @@ class _HomeScreenState extends State<HomeScreen> {
                 Container(
                   width: 200,
                   height: 300,
-                  color: Colors.green,
+
                   child: Column(
                     children: [
                       Container(
                         width: 200,
                         height: 50,
-                        color: Colors.white,
-                        child: Text('날짜입니다.'),
+
+                        child: Center(
+                          child: Text(
+                              '날짜입니다.',
+                            style: TextStyle(
+                              fontSize: 20,
+                              color: Colors.white,
+                              fontWeight: FontWeight.bold,
+
+                            ),
+                          ),
+                        ),
                       ),
                       // 가로 7개 세로 5개의 정사각형 빈칸으로 구성됩니다.
                       // 오늘의 해당하는 칸엔 border 주어 표시합니다.
@@ -62,7 +72,7 @@ class _HomeScreenState extends State<HomeScreen> {
                       Container(
                         width: 170,
                         height: 170,
-                        color: Colors.yellow,
+
                         // 5개의 콜론 내부에 7개의 로우를 추가합니다.
                         child: Column(
                           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -76,82 +86,37 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Container(
-
-                              height: 15,
-
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                 ],
                               ),
@@ -166,82 +131,37 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
-                                  ),
-                                ],
-                              ),
-                            ),
-                            Container(
-
-                              height: 15,
-
-                              child: Row(
-                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                                children: [
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
-                                  ),
-                                  Container(
-                                    width: 15,
-                                    height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                 ],
                               ),
@@ -256,37 +176,127 @@ class _HomeScreenState extends State<HomeScreen> {
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
                                   ),
                                   Container(
                                     width: 15,
                                     height: 15,
-                                    color: Colors.black,
+                                    color: Colors.white,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+
+                              height: 15,
+
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                ],
+                              ),
+                            ),
+                            Container(
+
+                              height: 15,
+
+                              child: Row(
+                                mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                                children: [
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
+                                  ),
+                                  Container(
+                                    width: 15,
+                                    height: 15,
+                                    color: Colors.white,
                                   ),
                                 ],
                               ),
@@ -303,7 +313,7 @@ class _HomeScreenState extends State<HomeScreen> {
                 Container(
                   width: 200,
                   height: 300,
-                  color: Colors.yellow,
+
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.center,
                     mainAxisAlignment: MainAxisAlignment.center,
@@ -312,7 +322,7 @@ class _HomeScreenState extends State<HomeScreen> {
                           '나의 상태',
                         style: TextStyle(
                           fontSize: 20,
-                          color: Colors.black,
+                          color: Colors.white,
                           fontWeight: FontWeight.bold,
                         ),
                       ),
@@ -338,19 +348,19 @@ class _HomeScreenState extends State<HomeScreen> {
             Container(
               width: double.infinity,
 
-              color: Colors.blue,
+
 
               child: Column(
                 children: [
                   Container(
                     width: double.infinity,
                     height: 50,
-                    color: Colors.white,
+
                     child: Text(
-                        '내 루틴 카테고리',
+                        ' 내 루틴 카테고리',
                       style: TextStyle(
-                        fontSize: 20,
-                        color: Colors.black,
+                        fontSize: 25,
+                        color: Colors.white,
                         fontWeight: FontWeight.bold,
                       ),
                     ),
@@ -364,53 +374,98 @@ class _HomeScreenState extends State<HomeScreen> {
                         Container(
                           width: double.infinity,
                           height: 50,
-                          color: Colors.white,
-                          child: Text(
-                              '내 루틴 1',
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                            ),
+
+                          child: Row(
+                            children: [
+                              // 원의 색상은 10가지로 해보자
+                              // 빨강, 주황, 노랑, 연두, 초록, 하늘, 파랑, 남색, 보라, 핑크
+                              // [red,orange,yellow,lightgreen,green,lightblue,blue,navy,purple,pink,]
+                              // 버튼을 누르면 색상 변경할수있게
+                              Container(
+                                width: 40,
+                                height: 40,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.red, // Add color to the circle
+                                ),
+                              ),
+                              SizedBox(
+                                width: 20,
+                              ),
+                              Text(
+                                  '내 루틴 1',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                         Container(
                           width: double.infinity,
                           height: 50,
-                          color: Colors.white,
-                          child: Text(
-                            '내 루틴 1',
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                            ),
+
+                          child: Row(
+                            children: [
+                              // 원의 색상은 10가지로 해보자
+                              // 빨강, 주황, 노랑, 연두, 초록, 하늘, 파랑, 남색, 보라, 핑크
+                              // [red,orange,yellow,lightgreen,green,lightblue,blue,navy,purple,pink,]
+                              // 버튼을 누르면 색상 변경할수있게
+
+                              Container(
+                                width: 40,
+                                height: 40,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.purple, // Add color to the circle
+                                ),
+                              ),
+                              SizedBox(
+                                width: 20,
+                              ),
+                              Text(
+                                '내 루틴 1',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                         Container(
                           width: double.infinity,
                           height: 50,
-                          color: Colors.white,
-                          child: Text(
-                            '내 루틴 1',
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                            ),
-                          ),
-                        ),
-                        Container(
-                          width: double.infinity,
-                          height: 50,
-                          color: Colors.white,
-                          child: Text(
-                            '내 루틴 2',
-                            style: TextStyle(
-                              fontSize: 20,
-                              color: Colors.black,
-                              fontWeight: FontWeight.bold,
-                            ),
+
+                          child: Row(
+                            children: [
+                              // 원의 색상은 10가지로 해보자
+                              // 빨강, 주황, 노랑, 연두, 초록, 하늘, 파랑, 남색, 보라, 핑크
+                              // [red,orange,yellow,lightgreen,green,lightblue,blue,navy,purple,pink,]
+                              // 버튼을 누르면 색상 변경할수있게
+                              Container(
+                                width: 40,
+                                height: 40,
+                                decoration: BoxDecoration(
+                                  shape: BoxShape.circle,
+                                  color: Colors.green, // Add color to the circle
+                                ),
+                              ),
+                              SizedBox(
+                                width: 20,
+                              ),
+                              Text(
+                                '내 루틴 1',
+                                style: TextStyle(
+                                  fontSize: 20,
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.bold,
+                                ),
+                              ),
+                            ],
                           ),
                         ),
                       ],

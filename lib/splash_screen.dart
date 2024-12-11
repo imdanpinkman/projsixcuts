@@ -1,7 +1,25 @@
 import 'package:flutter/material.dart';
+import 'dart:async';
 
-class SplashScreen extends StatelessWidget {
+class SplashScreen extends StatefulWidget {
   const SplashScreen({super.key});
+
+
+  @override
+  State<SplashScreen> createState() => _SplashScreenState();
+}
+//initState는 위젯의 초기화 작업 수행하는데 사용
+// 생명주기와 함께 시작하기 위해 타이머설정하는데 사용
+class _SplashScreenState extends State<SplashScreen> {
+  @override
+  void initState() {
+    super.initState();
+    Timer(Duration(seconds: 2), () {
+      Navigator.pushNamed(context, '/homeScreen');
+    });
+  }
+
+  //  빌드함수에 대해 질문
 
   @override
   Widget build(BuildContext context) {
@@ -58,11 +76,12 @@ class SplashScreen extends StatelessWidget {
               width: 10,
               height: 150,
             ),
-
-            ElevatedButton(
-              onPressed: () => {Navigator.pushNamed(context, '/homeScreen'),},
-              child: const Text('Go to Second Page'),
+            CircularProgressIndicator(
+              valueColor: AlwaysStoppedAnimation<Color>(Color(0xFF004ED4)),
             ),
+
+
+
           ],
         ),
       ),
