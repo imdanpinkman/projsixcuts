@@ -1,0 +1,177 @@
+[
+  {
+    "part:": "가슴",
+    "exercise": [
+      {
+        "name": "벤치프레스,",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+
+      {
+        "name": "덤벨프레스,",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+      {
+        "name": "체스트프레스,",
+        "set": null,
+        "rep": null,
+        "weight": null
+      }
+    ]
+  },
+
+  {
+    "part:": "등",
+    "exercise": [
+      {
+        "name": "덤벨로우",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+
+      {
+        "name": "렛풀다운",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+      {
+        "name": "데드리프트",
+        "set": null,
+        "rep": null,
+        "weight": null
+      }
+    ]
+  },
+
+  {
+    "part:": "어깨",
+    "exercise": [
+      {
+        "name": "숄더 프레스",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+
+      {
+        "name": "레터럴 레이즈",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+      {
+        "name": "리버스 플라이",
+        "set": null,
+        "rep": null,
+        "weight": null
+      }
+    ]
+  },
+
+  {
+    "part:": "이두",
+    "exercise": [
+      {
+        "name": "덤벨 컬",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+
+      {
+        "name": "바벨 컬",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+      {
+        "name": "해머 컬",
+        "set": null,
+        "rep": null,
+        "weight": null
+      }
+    ]
+  },
+
+  {
+    "part:": "삼두",
+    "exercise": [
+      {
+        "name": "라잉 트라이셉스 익스텐션",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+
+      {
+        "name": "케이블 푸쉬 다운",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+      {
+        "name": "딥스",
+        "set": null,
+        "rep": null,
+        "weight": null
+      }
+    ]
+  },
+
+  {
+    "part:": "하체",
+    "exercise": [
+      {
+        "name": "스쿼트",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+
+      {
+        "name": "레그 익스텐션",
+        "set": null,
+        "rep": null,
+        "weight": null
+      },
+      {
+        "name": "핵 스쿼트",
+        "set": null,
+        "rep": null,
+        "weight": null
+      }
+    ]
+  },
+
+    {
+        "part:": "복근",
+        "exercise": [
+        {
+            "name": "크런치",
+            "set": null,
+            "rep": null,
+            "weight": null
+        },
+
+        {
+            "name": "레그레이즈",
+            "set": null,
+            "rep": null,
+            "weight": null
+        },
+        {
+            "name": "플랭크",
+            "set": null,
+            "rep": null,
+            "weight": null
+        }
+        ]
+    }
+
+]
